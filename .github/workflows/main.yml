@@ -17,7 +17,7 @@ jobs:
           python-version: '3.12'
 
       - name: Run Program
-        run: python odd_even.py
+        run: python odd.py
 
       - name: Setup Python
         uses: actions/setup-python@v5
